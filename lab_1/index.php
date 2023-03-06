@@ -10,18 +10,20 @@
 <body>
     <header class="header">
         <div class="wrapper">
-            <img src="logo.svg" alt="logo">
+            <img src="img/logo.svg" alt="logo">
             <h2>Лабораторная работа №1</h2>
         </div>
     </header>
     <main>
-        <div class="block">
-            <?php
-                $img = array("img/1.avif", "img/2.avif", "img/3.avif", "img/4.avif");
-                for ($i = 0; $i < 4; $i++) {
-                    echo "<img src=\"$img[$i]\" width="100">"
-                }
-            ?>
+        <div class="wrapper">
+            <div class="block">
+                <?php
+                    $img = array("img/1.avif", "img/2.avif", "img/3.avif", "img/4.avif");
+                    for ($i = 0; $i < 4; $i++) {
+                        echo "<img src=\"$img[$i]\" width="100">"
+                    }
+                ?>
+            </div>
         </div>
     </main>
     <footer>
