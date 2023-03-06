@@ -14,5 +14,18 @@
             <h2>Лабораторная работа №1</h2>
         </div>
     </header>
+    <main>
+        <div class="block">
+            <?php
+                $img = array("img/1.avif", "img/2.avif", "img/3.avif", "img/4.avif");
+                for ($i = 0; $i < 4; $i++) {
+                    echo "<img src=\"$img[$i]\" width="100">"
+                }
+            ?>
+        </div>
+    </main>
+    <footer>
+        <p>Создать веб-страницу с динамическим контентом. Загрузить код в удаленный репозиторий. Залить на хостинг.</p>
+    </footer>
 </body>
 </html>
