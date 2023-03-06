@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.function_text {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    resize: none;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+.header > .wrapper {
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 480px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgb(192, 192, 192);
+}
+
+.btn {
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.nextBtn {
+    margin: 20px 0px 0px 0px;
+    border-radius: 10px;
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+legend {
+    padding: 5px 10px 5px 10px;
+    margin-left: 15px;
+    background-color: #606060;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    transition: all .6s ease-in-out;
+    cursor: default;
+}
+
+label, .form__checkbox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label:first-child {
+    margin-top: 0px;
+}
+label:last-child {
+    margin-bottom: 0px;
+}
+
+input, select {
+    background-color: #000000;
+    border-color: #ffffff00;
+    border-radius: 10px;
+}
+
+input {
+    padding: 15px 25px;
+}
+input::placeholder {
+    color: #ffffff7a;
+}
+
+select {
+    color: #ffffff7a;
+    padding: 15px 50px;
+}
+option {
+    margin: 10px 0px;
+}
+
+.form__checkbox {
+    margin-bottom: 30px;
+}
+.form__checkbox > input {
+    margin-right: 5px;
+}
+.form__checkbox > span {
+    margin-right: 30px;
+}
+.form__checkbox > span:last-child {
+    margin-right: 0px;
+}
+
+.next__btn, .prev__btn {
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    transition: all .6s ease-in-out;
+    text-decoration: none;
+}
+
+#output {
+    outline: none;
+	-moz-appearance: none;
+	border: 2px solid #999;
+    border-radius: 1.2rem;
+    resize: none;
+    background: transparent;
+    font-size: 20px;
+}
