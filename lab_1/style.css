@@ -5,10 +5,32 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(175, 175, 175);
+}
+
 .wrapper {
-    min-width: 1240px;
+    max-width: 900px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header > .wrapper {
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+img {
+    margin-right: 20px;
+}
+
+img:last-child {
+    margin-right: 0px;
+}
+
+.footer {
+    margin-top: 50px;
 }
